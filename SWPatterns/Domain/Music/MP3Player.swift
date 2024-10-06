@@ -17,7 +17,7 @@ class AudioPlayerManager {
     static let shared = AudioPlayerManager()
     
     // Propiedad privada que almacena la instancia de `AVAudioPlayer` que gestiona la reproducción de audio.
-    private var audioPlayer: AVAudioPlayer?
+    var audioPlayer: AVAudioPlayer?
     
     // Inicializador privado para evitar que se creen nuevas instancias fuera de la clase (singleton).
     private init() {}
